@@ -13,7 +13,7 @@ import store from '@/store';
 // HTTP connection to the API
 const httpLink = createHttpLink({
   // You should use an absolute URL here
-  uri: 'http://localhost:3000/q',
+  uri: process.env.fc2proGQL || 'http://localhost:3000/q',
 });
 
 const authMiddleware = new ApolloLink((operation, forward) => {
