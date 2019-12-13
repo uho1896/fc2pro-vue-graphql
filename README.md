@@ -5,6 +5,9 @@ Sample project with vue.js, grphql
 - [Node.js](https://nodejs.org)
 - [GraphQL.js](https://graphql.org/graphql-js/)
 
+## Sample site
+- [fc2pro site](http://nanshan.fun)
+
 ## Pair server
 - [fc2pro-express-graphql](https://github.com/uho1896/fc2pro-express-graphql)
 
